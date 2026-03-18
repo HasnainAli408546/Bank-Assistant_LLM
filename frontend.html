@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NUST Bank Assistant</title>
+  <style>
+    :root {
+      --primary: #0056b3;
+      --primary-light: #e6f0ff;
+      --bg: #f5f7fb;
+      --border: #d0d7e2;
+      --user-bubble: #0056b3;
+      --bot-bubble: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top, #e6f0ff 0, #f5f7fb 40%, #eef1f7 100%);
+      color: #1e293b;
+    }
+
+    .app-container {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 16px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      height: 80vh;
+      max-height: 720px;
+    }
+
+    .header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to right, #0056b3, #0f78d1);
+      color: #ffffff;
+    }
+
+    .header-title {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-title h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .header-title span {
+      font-size: 12px;
+      opacity: 0.85;
+    }
+
+    .header-badge {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .chat-area {
+      flex: 1;
+      padding: 16px 20px;
+      background: var(--bg);
+      overflow-y: auto;
+    }
+
+    .msg-row {
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .msg-row.user {
+      justify-content: flex-end;
+    }
+
+    .msg-row.bot {
+      justify-content: flex-start;
+    }
+
+    .bubble {
+      max-width: 75%;
+      padding: 10px 12px;
+      border-radius: 14px;
+      font-size: 14px;
+      line-height: 1.4;
+      position: relative;
+    }
+
+    .bubble.user {
+      background: var(--user-bubble);
+      color: #ffffff;
+      border-bottom-right-radius: 4px;
+    }
+
+    .bubble.bot {
+      background: var(--bot-bubble);
+      border: 1px solid var(--border);
+      border-bottom-left-radius: 4px;
+    }
+
+    .msg-meta {
+      font-size: 10px;
+      opacity: 0.7;
+      margin-top: 2px;
+    }
+
+    .input-area {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border);
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    #query {
+      flex: 1;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    #query:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.15);
+    }
+
+    #send-btn {
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      background: var(--primary);
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.15s, transform 0.05s;
+    }
+
+    #send-btn:hover {
+      background: #00408a;
+    }
+
+    #send-btn:active {
+      transform: scale(0.97);
+    }
+
+    #send-btn:disabled {
+      background: #9ca3af;
+      cursor: default;
+    }
+
+    .hint {
+      font-size: 11px;
+      color: #6b7280;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hint span {
+      opacity: 0.9;
+    }
+
+    .example {
+      font-style: italic;
+      opacity: 0.85;
+    }
+
+    .loading-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #6b7280;
+    }
+
+    .dot-flashing {
+      position: relative;
+      width: 10px;
+      height: 4px;
+    }
+
+    .dot-flashing::before,
+    .dot-flashing::after,
+    .dot-flashing div {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      width: 4px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: #6b7280;
+      animation: dotFlashing 1s infinite linear alternate;
+    }
+
+    .dot-flashing div {
+      left: 4px;
+      animation-delay: 0.2s;
+    }
+
+    .dot-flashing::before {
+      left: -4px;
+      animation-delay: 0s;
+    }
+
+    .dot-flashing::after {
+      left: 12px;
+      animation-delay: 0.4s;
+    }
+
+    @keyframes dotFlashing {
+      0% { opacity: 0.2; }
+      50% { opacity: 1; }
+      100% { opacity: 0.2; }
+    }
+
+    @media (max-width: 640px) {
+      .app-container {
+        margin: 8px;
+      }
+      .card {
+        height: 90vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <div class="card">
+      <header class="header">
+        <div class="header-title">
+          <h1>NUST Bank Assistant</h1>
+          <span>Ask about NUST accounts, policies, and services.</span>
+        </div>
+        <div class="header-badge">
+          RAG · Local Qwen‑0.5B
+        </div>
+      </header>
+
+      <div id="chat" class="chat-area"></div>
+
+      <div class="input-area">
+        <div class="input-row">
+          <input
+            id="query"
+            type="text"
+            placeholder="Ask a question about NUST Bank (e.g., opening balance for NAA)..."
+            autocomplete="off"
+          />
+          <button id="send-btn" onclick="sendMessage()">
+            <span>Send</span>
+            <span>➤</span>
+          </button>
+        </div>
+        <div class="hint">
+          <span class="example">Try: “What is the opening and minimum balance requirement in NAA?”</span>
+          <span id="status" class="loading-indicator" style="visibility: hidden;">
+            <span class="dot-flashing"><div></div></span>
+            <span>Thinking...</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const chatBox = document.getElementById('chat');
+    const queryInput = document.getElementById('query');
+    const sendBtn = document.getElementById('send-btn');
+    const statusEl = document.getElementById('status');
+
+    function addMessage(text, role) {
+      const row = document.createElement('div');
+      row.className = 'msg-row ' + (role === 'user' ? 'user' : 'bot');
+
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble ' + (role === 'user' ? 'user' : 'bot');
+      bubble.textContent = text;
+
+      row.appendChild(bubble);
+      chatBox.appendChild(row);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function setLoading(isLoading) {
+      if (isLoading) {
+        statusEl.style.visibility = 'visible';
+        sendBtn.disabled = true;
+      } else {
+        statusEl.style.visibility = 'hidden';
+        sendBtn.disabled = false;
+      }
+    }
+
+    async function sendMessage() {
+      const text = queryInput.value.trim();
+      if (!text || sendBtn.disabled) return;
+
+      addMessage(text, 'user');
+      queryInput.value = '';
+      setLoading(true);
+
+      try {
+        const resp = await fetch('http://localhost:8000/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: text, top_k: 5 })
+        });
+
+        if (!resp.ok) {
+          addMessage('Error: ' + resp.status + ' ' + resp.statusText, 'bot');
+        } else {
+          const data = await resp.json();
+          addMessage(data.answer || 'No answer returned.', 'bot');
+        }
+      } catch (err) {
+        console.error(err);
+        addMessage('Network error calling backend.', 'bot');
+      } finally {
+        setLoading(false);
+        queryInput.focus();
+      }
+    }
+
+    queryInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        sendMessage();
+      }
+    });
+
+    // Initial welcome message
+    addMessage(
+      'Welcome to NUST Bank Assistant. You can ask about account types, opening balances, profit rates, eligibility, and more.',
+      'bot'
+    );
+  </script>
+</body>
+</html>
