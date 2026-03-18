@@ -7,14 +7,14 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from retrieve import search  # uses your existing vector index
+from retrieve import search  # semantic search over bank_documents.json
 
 
 # ---- Config ----
 
 LLM_API_URL = "http://localhost:9000/generate"
-MAX_TOKENS = 64          # keep answers short and focused
-TOP_K = 3                # fewer chunks → more focused context
+MAX_TOKENS = 96          # a bit more room than 64
+TOP_K = 3                # fewer docs → more focused context
 
 
 # ---- LLM client ----
@@ -42,7 +42,7 @@ app = FastAPI(title="NUST Bank Assistant API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # OK for local dev, restrict later
+    allow_origins=["*"],  # OK for local dev; restrict in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -51,7 +51,7 @@ app.add_middleware(
 
 class ChatRequest(BaseModel):
     query: str = Field(..., description="User question")
-    top_k: int = Field(TOP_K, description="Number of chunks to retrieve")
+    top_k: int = Field(TOP_K, description="Number of documents to retrieve")
 
 
 class ChatResponse(BaseModel):
@@ -64,8 +64,14 @@ class ChatResponse(BaseModel):
 def is_disallowed_input(text: str) -> bool:
     text_l = text.lower()
     sensitive_keywords = [
-        "pin", "password", "otp", "cvv", "cvc",
-        "bypass security", "hack", "jailbreak",
+        "pin",
+        "password",
+        "otp",
+        "cvv",
+        "cvc",
+        "bypass security",
+        "hack",
+        "jailbreak",
     ]
     return any(k in text_l for k in sensitive_keywords)
 
@@ -84,7 +90,7 @@ def build_system_prompt() -> str:
 def build_context(hits: List[Dict[str, Any]]) -> str:
     parts = []
     for i, h in enumerate(hits, start=1):
-        ctx = h.get("chunk_text", "")
+        ctx = h.get("content", "")  # <-- matches prepare_documents.py
         sheet = h.get("sheet", "Unknown")
         question = h.get("question", "")
         parts.append(
@@ -125,10 +131,10 @@ def chat(req: ChatRequest):
                 "For your security, I cannot help with PINs, passwords, or similar sensitive information. "
                 "Please contact the bank through official channels for such requests."
             ),
-            sources=[]
+            sources=[],
         )
 
-    # Retrieve top-k chunks (you can override k in the request)
+    # Retrieve top-k docs (can be overridden by client)
     hits = search(req.query, k=req.top_k)
 
     # If nothing retrieved, fail gracefully

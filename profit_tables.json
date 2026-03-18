@@ -1,0 +1,54 @@
+[
+  {
+    "sheet": "LCA",
+    "question": "What are the main Features  of the Little Champs Account.",
+    "profit_payment": {
+      "Semi-Annually": "0.19"
+    }
+  },
+  {
+    "sheet": "NWA",
+    "question": "What are the salient features of NUST Waqaar Account ? Savings Term Deposit Profit Payment",
+    "profit_payment": {
+      "Monthly": "0.1675"
+    }
+  },
+  {
+    "sheet": "PWRA",
+    "question": "What is the profit rate offered on this account and when is credited? Profit Rate",
+    "profit_payment": {
+      "Monthly": "0.19"
+    }
+  },
+  {
+    "sheet": "NSDA",
+    "question": "What is the minimum balance requirement of NUST Special Deposit Account? NUST Special Deposit Account (ASDA)",
+    "profit_payment": {
+      "Semi-Annually": "0.19"
+    }
+  },
+  {
+    "sheet": "PLS",
+    "question": "What are the main features of NUST Profit & Loss Sharing (PLS) Account? Profit Payment Profit Rate",
+    "profit_payment": {
+      "Semi-Annually": "0.1925"
+    }
+  },
+  {
+    "sheet": "NMA",
+    "question": "What are the free services available with NUST Maximiser Savings Account? Profit Rate:",
+    "profit_payment": {
+      "Monthly": "0.19",
+      "Quarterly": "0.1905",
+      "Semi-Annually": "0.191",
+      "Annually": "0.1915"
+    }
+  },
+  {
+    "sheet": "NMA",
+    "question": "What are main Features of NUST Maximiser Term Deposit Profit Rate:",
+    "profit_payment": {
+      "Monthly": "0.1675"
+    }
+  }
+]

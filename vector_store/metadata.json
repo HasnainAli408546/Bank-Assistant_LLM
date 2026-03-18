@@ -1,0 +1,1154 @@
+[
+  {
+    "sheet": "LCA",
+    "question": "What are the main Features  of the Little Champs Account."
+  },
+  {
+    "sheet": "LCA",
+    "question": "What other Value added features does the Little Champs Account have?"
+  },
+  {
+    "sheet": "LCA",
+    "question": "What is the account type of Little Champs Account is it saving or current ?"
+  },
+  {
+    "sheet": "LCA",
+    "question": "How can the minor operate this account?"
+  },
+  {
+    "sheet": "LCA",
+    "question": "What documents are required to open a Little Champs Account."
+  },
+  {
+    "sheet": "NAA",
+    "question": "What is the Eligibility Criteria for NAA?"
+  },
+  {
+    "sheet": "NAA",
+    "question": "What is the account type of NAA?"
+  },
+  {
+    "sheet": "NAA",
+    "question": "What is the opening and minimum balance requirement in NAA?"
+  },
+  {
+    "sheet": "NAA",
+    "question": "What are the basic Features  of NUST Asaan Account? NUST Asaan Account"
+  },
+  {
+    "sheet": "NAA",
+    "question": "What is the Profit rate on NAA Savings account?"
+  },
+  {
+    "sheet": "NWA",
+    "question": "Does your bank offer any account for senior citizens?"
+  },
+  {
+    "sheet": "NWA",
+    "question": "What are the salient features of NUST Waqaar Account ? Savings Term Deposit Profit Payment"
+  },
+  {
+    "sheet": "NWA",
+    "question": "What is the minimum age to qualify for opening of  NUST Waqaar Account & Minimum deposit requirement ?"
+  },
+  {
+    "sheet": "NWA",
+    "question": "What is the minimum deposit requirement to open NUST Waqaar Savings Account & NUST Waqaar Term Deposit?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "Is there any account NUST Bank is offering for remittance purposes ?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "What are initial/minimum balance requirements for PakWatan Remittance Account?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "Are Local Credits allowed in PakWatan Remittance Account?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "What are the free services associated with PakWatan Remittance account?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "Are there any other benefits to opening a PakWatan Remittance Account?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "Is there any Insurance Coverage for this account?"
+  },
+  {
+    "sheet": "PWRA",
+    "question": "What is the profit rate offered on this account and when is credited? Profit Rate"
+  },
+  {
+    "sheet": "RDA",
+    "question": "Does NUST Bank offer Any account for Non-Resident Pakistanis (NRPs)?"
+  },
+  {
+    "sheet": "RDA",
+    "question": "Is there any minimum balance requirement of Roshan Digital Account?"
+  },
+  {
+    "sheet": "RDA",
+    "question": "What are the main features of the Roshan Digital Account?"
+  },
+  {
+    "sheet": "RDA",
+    "question": "How to apply for Roshan Digital Account ?"
+  },
+  {
+    "sheet": "RDA",
+    "question": "What is the NUST Bank Web Portal Link for RDA?"
+  },
+  {
+    "sheet": "RDA",
+    "question": "Who can open a Roshan Digital Account?"
+  },
+  {
+    "sheet": "VPCA",
+    "question": "I would like to inquire about opening a current account for Individuals with your Bank. Please tell me what options I have ?"
+  },
+  {
+    "sheet": "VPCA",
+    "question": "What are the free facilities being provided with NUST Value Plus Current Account?"
+  },
+  {
+    "sheet": "VPCA",
+    "question": "Are there any insurance benefits associated with VPCA'?"
+  },
+  {
+    "sheet": "VP-BA",
+    "question": "I would like to inquire about opening a current account for business with your Bank. Please tell me what options I have?"
+  },
+  {
+    "sheet": "VP-BA",
+    "question": "Please tell me about  minimum Monthly balance required ?"
+  },
+  {
+    "sheet": "VP-BA",
+    "question": "What is Target Market for  Value Plus Business Account ?"
+  },
+  {
+    "sheet": "VP-BA",
+    "question": "Is there any insurance coverage available?"
+  },
+  {
+    "sheet": "VPBA",
+    "question": "I would like to inquire about opening a current account for business purpose with your Bank. Please tell me what options I have?"
+  },
+  {
+    "sheet": "VPBA",
+    "question": "Please tell me about  the Minimum Monthly balance required for this account?"
+  },
+  {
+    "sheet": "VPBA",
+    "question": "What other benefits do I get from using a VPBA?"
+  },
+  {
+    "sheet": "VPBA",
+    "question": "What is the Target Market for Value Plus Premium Business Account ?"
+  },
+  {
+    "sheet": "NSDA",
+    "question": "Is NUST Bank offering any account which provides lucrative profits on my savings?"
+  },
+  {
+    "sheet": "NSDA",
+    "question": "What is the minimum balance requirement of NUST Special Deposit Account? NUST Special Deposit Account (ASDA)"
+  },
+  {
+    "sheet": "NSDA",
+    "question": "Please tell me about profit payment and calculation?"
+  },
+  {
+    "sheet": "NSDA",
+    "question": "What are the free services available with ASDA?"
+  },
+  {
+    "sheet": "NSDA",
+    "question": "What is the Target Market?"
+  },
+  {
+    "sheet": "PLS",
+    "question": "Is your bank offering Profit & Loss account ?"
+  },
+  {
+    "sheet": "PLS",
+    "question": "What are the main features of NUST Profit & Loss Sharing (PLS) Account? Profit Payment Profit Rate"
+  },
+  {
+    "sheet": "PLS",
+    "question": "What are free features available with NUST Savings Profit & Loss Sharing (PLS) Account."
+  },
+  {
+    "sheet": "PLS",
+    "question": "What is the Target Market?"
+  },
+  {
+    "sheet": "CDA",
+    "question": "Is your bank offering any Current Deposit account ?"
+  },
+  {
+    "sheet": "CDA",
+    "question": "What are the main features of Current Deposit Account?"
+  },
+  {
+    "sheet": "CDA",
+    "question": "What are the free services offered with Current Deposit Account?"
+  },
+  {
+    "sheet": "CDA",
+    "question": "What is the target market for Current Deposit Account?"
+  },
+  {
+    "sheet": "NMA",
+    "question": "Is there any account which provides lucrative profits on my long term savings? Main"
+  },
+  {
+    "sheet": "NMA",
+    "question": "What are the main Features of NUST Maximiser Savings Account?"
+  },
+  {
+    "sheet": "NMA",
+    "question": "What are the free services available with NUST Maximiser Savings Account? Profit Rate:"
+  },
+  {
+    "sheet": "NMA",
+    "question": "What are main Features of NUST Maximiser Term Deposit Profit Rate:"
+  },
+  {
+    "sheet": "NMA",
+    "question": "Is there any Premature Encashment Penalty in NUST Maximiser Term Deposit?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "Is NUST Bank offering a simple Digital Banking Account  ?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "What is the Target  Market of NUST Asaan Digital Account ?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "What is the Account type of NUST Asaan Digital Account ? is it Current or Saving?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "What are the free benefits of NUST Asaan Digital Account ?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "Who is eligible for this account?"
+  },
+  {
+    "sheet": "NADA",
+    "question": "Is there a Monthly Transaction Limit (Debit  and Credit Limit) in NUST Asaan Digital Account ?"
+  },
+  {
+    "sheet": "NADRA",
+    "question": "I would like to inquire about opening of a Digital Remittance Account, Please tell me what options are available?"
+  },
+  {
+    "sheet": "NADRA",
+    "question": "What is the Account type of NUST Asaan Digital Remittance Account ? is it Current or Saving?"
+  },
+  {
+    "sheet": "NADRA",
+    "question": "What are the free benefits of NUST Asaan Digital Remittance Account ?"
+  },
+  {
+    "sheet": "NADRA",
+    "question": "What is the Target Market?"
+  },
+  {
+    "sheet": "NADRA",
+    "question": "Are there any transaction limits in NUST Asaan Digital Remittance Account ?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "1.What are the benefits of NUST Bank Auto Finance?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "2. Who can apply for NUST Auto Finance?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "3. Which types of Vehicles are offered under NUST auto finance?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "4. Can I avail Loan Facility, if there are defaults against my previous loan(s)?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "5. How much loan can I avail?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "6. What is maximum period of loan?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "8. Can I avail more than one vehicle through Auto loan facility?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "Professional?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "11. Is insurance of vehicle is mandatory?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "12. What will be the monthly insurance charges on the vehicle valuing Rs.3 million?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "13. Who will insure my Vehicle?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "15. What is the security against the loan?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "16. Whether bank is responsible for delay in booking or delivery of vehicle?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "17. Whether bank is responsible for any type of dispute related to Warranty/Fault in vehicle/Service issues with Dealership or vehicle Manufacturer?"
+  },
+  {
+    "sheet": "NUST4Car",
+    "question": "19. How can I apply for loan?"
+  },
+  {
+    "sheet": "ESFCA",
+    "question": "Does NUST Bank offer a Digital Banking Account for Freelancers ?"
+  },
+  {
+    "sheet": "ESFCA",
+    "question": "What is the Account type of NUST Freelancer Digital Account ? is it Current or Saving?"
+  },
+  {
+    "sheet": "ESFCA",
+    "question": "What are the free benefits of NUST Freelancer Digital Account?"
+  },
+  {
+    "sheet": "ESFCA",
+    "question": "What is the Target Market?"
+  },
+  {
+    "sheet": "ESFCA",
+    "question": "Are there any Credit and Debit limits in NUST Freelancer Digital Account?"
+  },
+  {
+    "sheet": "NFDA",
+    "question": "Does NUST Bank offer a Digital Banking Account for Freelancers ?"
+  },
+  {
+    "sheet": "NFDA",
+    "question": "What is the Account type of NUST Freelancer Digital Account ? is it Current or Saving?"
+  },
+  {
+    "sheet": "NFDA",
+    "question": "What are the free benefits of NUST Freelancer Digital Account?"
+  },
+  {
+    "sheet": "NFDA",
+    "question": "What is the Target Market?"
+  },
+  {
+    "sheet": "NFDA",
+    "question": "Are there any Credit and Debit limits in NUST Freelancer Digital Account?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "Is NUST Bank offering any account specifically for Women?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What is the account type of NUST Sahar Account?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What are the free facilities NUST is offering on NUST Sahar Current Account ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "Can we open this account online?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "Does the bank offer option of Term Deposits with this account."
+  },
+  {
+    "sheet": "NSA",
+    "question": "Is there a Minimum balance requirement for NUST Sahar Current Account"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What is the profit payment system for NUST Sahar Savings Account ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What are the free services offered on NUST Sahar Savings Account?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What are the main features of NUST Sahar Term Deposit ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What is the Premature Encashment Penalty on NUST Sahar Term Deposit ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What is the initial deposit requirement of NUST Sahar Asaan Current Account?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What are the main features of NUST Sahar Asaan Current Account ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "Is there any Transaction Limitation for NUST Sahar Asaan Current Account ?"
+  },
+  {
+    "sheet": "NSA",
+    "question": "What are the free services offered on NUST Sahar Asaan Current Account ?"
+  },
+  {
+    "sheet": "PF",
+    "question": "Who can apply for NUST Personal Finance?"
+  },
+  {
+    "sheet": "PF",
+    "question": "Can overseas Pakistanis obtain Personal Finance facility from NUST?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What is the minimum and maximum financing amount?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What are the minimum & maximum financing tenures?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What is the age criteria for applying NUST Personal Finance?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What is the minimum monthly income criterion?"
+  },
+  {
+    "sheet": "PF",
+    "question": "In which area of the country one can avail Personal Finance form NUST?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What is the repayment mode?"
+  },
+  {
+    "sheet": "PF",
+    "question": "What happens if I fail to fulfil your payment obligations?"
+  },
+  {
+    "sheet": "PF",
+    "question": "How will I get update of my Personal Loan Application?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "1.Who can apply for NUST Credit Card Facility?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "2.What is the minimum age for applying NUST Mastercard Credit Card?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "3. What is the maximum age for applying NUST Mastercard Credit Card?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "4.Can overseas Pakistanis obtain Credit Card facility from NUST?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "5. What is the minimum and maximum financing amount?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "6. What would be the financing tenure?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "7. What is the minimum monthly income criterion?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "8. In which area of the country one can avail Credit Card facility?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "9. What is the Application processing time?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "12. How will I get update of my Credit Card Application?"
+  },
+  {
+    "sheet": "NMC",
+    "question": "13. Is there a limit to international Spending?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "1.What types of Housing Finance products does NUST offer?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "2.What is the minimum age for applying NUST Mortgage Finance?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "3. What is the Maximum age criteria for applying NUST Mortgage Finance?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "4.Can overseas Pakistanis obtain House Finance facility from NUST?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "5. What is the minimum and maximum financing amount?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "6. What would be the financing tenure?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "7. Can I obtain financing on my owned property by mortgaging it?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "8. Can I avail more than one House loan?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "9. Can I avail income tax rebate on House Financing?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "10. What is the minimum monthly income criterion?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "11. Can I club income of Co-Borrower?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "13. What is the repayment mode?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "14. Is Property insurance coverage mandatory?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "16. Can the loan amount be used for any other purpose?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "17.In which area of the country one can avail House Finance form NUST?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "18. Where financing is not allowed?"
+  },
+  {
+    "sheet": "NMF",
+    "question": "How will I get update of my House Loan Application?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Is NUST Bank offering any financing specifically for women owned small and medium enterprises?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What are the purposes for which NUST Sahar Finance can be availed?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What is the applicant legal structure of business in order to avail NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What is the nature of finance in NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What is the maximum tenure of NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Is there any age criteria to avail NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What are the Loan Limits of NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What is the current Mark-up rate of NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Can applicant avail clean loan in NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Does the bank require any Equity for this scheme?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Is there any minimum business age requirement?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What are the processing charges for NUST Sahar Finance Application?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "Are there any late payment charges?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What are the service/documentation/legal charges in NUST Sahar Finance?"
+  },
+  {
+    "sheet": "NSF",
+    "question": "What are the insurance charges?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Is NUST Bank offering any financing specifically for the ownership & capacity enhancement of business premises?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "For which purpose NUST Imarat Finance is being offered?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What are the Loan Limits of NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What is the maximum tenure of NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Does the bank require any Equity for this scheme?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Is there any minimum age to avail financing in NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Any mandatory qualification/experience required?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What is the current Mark-up rate of NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Is there any business age requirement?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What should be the legal structure of business for availing  NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What is the security requirement for availing NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What is the repayment frequency in NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Is there any condition related to bank account maintenance for availing NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Is there any penalty charges related to Premature termination/balloon payment penalties?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What are the processing charges for NUST Imarat Finance Application?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "Are there any late payment charges?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What are the service/documentation/legal charges in NUST Imarat Finance?"
+  },
+  {
+    "sheet": "NIF",
+    "question": "What are the valuation/BOQ charges?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "Is NUST Bank offering any financing product related to renewable/alternate energy solutions?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "who can apply for NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "Is there any minimum age to avail financing in NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "For which purposes NUST Ujala Finance is being offered?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "Capacity allowed under NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "Loan Amount that can be availed under NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What is the current Mark-up rate of NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What is the maximum tenure for NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What is the repayment frequency in NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What are the processing charges for NUST Ujala Finance Application?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What are the service/documentation/legal charges in NUST Ujala Finance?"
+  },
+  {
+    "sheet": "NUF",
+    "question": "What are the insurance charges?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "Is NUST Bank offering any seasonal financing?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What are the Loan Limits of NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "Is there any minimum age to avail financing in NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What is the maximum tenure of NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What is the current Mark-up rate of NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "Any Account turnover requirement for NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What are the processing charges for NUST Flour Mill Finance Application?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What are the service/documentation/legal charges in NUST Flour Mill Finance?"
+  },
+  {
+    "sheet": "NFMF",
+    "question": "What are the insurance charges?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the Eligibility Criteria for business entity in Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "Is there any business age requirement?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the nature of financing offered under Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the current Mark-up rate of Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the principal repayment frequency in Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the markup repayment frequency in Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the maximum tenure of Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What are the Loan Limits of Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "Is there any grace period allowed in any financing?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What is the collateral requirment for Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What are the processing charges for Ask Fauri Finance Application?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "What are the service/documentation/legal charges in Ask Fauri Business Finance?"
+  },
+  {
+    "sheet": "NFBF",
+    "question": "Is there any premature termination / Balloon payment charges?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Is NUST Bank Participating in PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "For which purposes PMYB & ALS is being offered?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Nature of loans allowed in PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What are the Loan Limits of PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Is there any minimum age to avail financing in PMYB & ALS and any mandatory qualification/experience required?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What is the maximum tenure in PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What is the current Mark-up rate of PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Does the bank require any Equity for this scheme?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What is the repayment frequency in PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What is the security requirement for availing PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Is there any quota for womens?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What are the processing charges for PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "What are the service/documentation/legal charges in PMYB & ALS?"
+  },
+  {
+    "sheet": "PMYB &ALS",
+    "question": "Is there any late payment charges?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "Is NUST Bank offering any seasonal financing for rice mills?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What are the Loan Limits of NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "Is there any minimum age to avail financing in NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What is the maximum tenure of NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What is the current Mark-up rate of NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "Any Account turnover requirement for NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What are the processing charges for NUST Rice Finance Application?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What are the service/documentation/legal charges in NUST Rice Finance?"
+  },
+  {
+    "sheet": "NRF",
+    "question": "What are the insurance charges?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "For which purposes NUST Hunarmand Finance is being offered?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "Nature of loan allowed in NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What are the Loan Limits of NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "Is there any minimum age to avail financing in NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What is the maximum tenure in NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What is the current Mark-up rate of NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "Does the bank require any Equity for this scheme?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What is the repayment frequency in NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What is the security requirement for availing NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "NHF",
+    "question": "What are the charges applicable for NUST Hunarmand Finance?"
+  },
+  {
+    "sheet": "Nust Life",
+    "question": "Can I purchase Bancassurnce policy from my account maintained with NUST Bank? Main"
+  },
+  {
+    "sheet": "Nust Life",
+    "question": "What are the main features of NUST Life Bancassurnace Policy?"
+  },
+  {
+    "sheet": "Nust Life",
+    "question": "How many NUST Life  Insurance Plans available? Plan Type Premium"
+  },
+  {
+    "sheet": "EFU Life",
+    "question": "Can I purchase Bancassurnce policy from my account maintained with NUST Bank? Main"
+  },
+  {
+    "sheet": "EFU Life",
+    "question": "What are the main features of EFU Bancassurnace Policy?"
+  },
+  {
+    "sheet": "EFU Life",
+    "question": "How many EFU Insurance Plans available? Plan Type Premium"
+  },
+  {
+    "sheet": "Jubilee Life ",
+    "question": "Can I purchase Bancassurnce policy from my account maintained with NUST Bank? Main"
+  },
+  {
+    "sheet": "Jubilee Life ",
+    "question": "What are the main features of JLI Bancassurnace Policy?"
+  },
+  {
+    "sheet": "Jubilee Life ",
+    "question": "How many Jubilee Life Insurance Plans available? Plan Type Premium"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "What is Home Remittance ?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "What types of Inward Home Remittance products does NUST Bank offer ?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "In which currency will I receive my remittance?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Is there any limit on the amount received though NUST Home Remittance?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Are there any charges/fee for NUST's Home Remittance Service?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Are there any tax deductions on Home Remittances?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Can I receive remittance in Pakistan if I do not have a bank account with any bank?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Is there any list of branches I can access to get information?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Who should I contact in case I need to lodge a complaint regarding Home Remittance?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "How can I obtain a Proceed Realization Certificate (PRC)/Encashment Certificate against remittance(s) received? Who should I contact?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Can I track my remittance status online?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "What are NUST's Banking hours to avail home remittance services from NUST Branches?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Is it important to declare the purpose of the funds being sent to Pakistan?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "I am a foreign national, can I send money to Pakistan?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Does the PRI comes under the laws of State Bank or Government?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Can the Freelance payment  be made through PRI?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "What conversion rates will be applied on remittance?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Does NUST Bank has specialized remittance Account as per SBP guideline?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Who can open Pak Wattan Remittance Account?"
+  },
+  {
+    "sheet": "HOME REMITTANCE",
+    "question": "Can remittance be sent from anywhere to Pakistan?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Is there a limit on the amount I can transfer through the mobile banking app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How can I change limit of funds transfer?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How can I add or update beneficiaries or recipients in the mobile banking app for funds transfer?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How do I perform international transactions through the mobile app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Does the app support contactless payments or digital wallets?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Can I use the mobile app while I am overseas?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "What should I do if I forget my login password?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Can I reset my MPIN through the app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "What services are available under the Bill Payment option?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How can I recharge mobile balance or buy top-up?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Is biometric login supported in the app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Can I view my debit card details using the mobile app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How can I report an issue or give feedback within the app?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "How can I deactivate or delete my mobile banking account?"
+  },
+  {
+    "sheet": "Unknown",
+    "question": "Is the mobile app available in multiple languages?"
+  }
+]

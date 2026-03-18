@@ -5,7 +5,7 @@ from typing import List, Dict
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
-import faiss
+import faiss  # keep import in case you need it later
 
 from build_index import load_index, EMBEDDING_MODEL_NAME
 
@@ -25,7 +25,7 @@ def search(
     index_dir: str = "vector_store",
 ) -> List[Dict]:
     """
-    Return top-k chunks with metadata and scores.
+    Return top-k documents with metadata and (L2) scores.
     """
     index, metadata = load_index(index_dir)
     model = load_embedding_model()
@@ -36,13 +36,13 @@ def search(
         normalize_embeddings=True,
     ).astype(np.float32)
 
-    scores, idxs = index.search(q_emb, k)  # scores = cosine similarity
+    # For normalized vectors, smaller L2 distance = more similar.
+    distances, idxs = index.search(q_emb, k)
 
     results: List[Dict] = []
-    for score, idx in zip(scores[0], idxs[0]):
+    for dist, idx in zip(distances[0], idxs[0]):
         meta = metadata[idx].copy()
-        # meta should already contain "chunk_text", "sheet", "question", ...
-        meta["score"] = float(score)
+        meta["score"] = float(dist)  # lower is better
         results.append(meta)
 
     return results
@@ -57,7 +57,7 @@ if __name__ == "__main__":
         hits = search(q, k=5)
         for h in hits:
             print("\n---")
-            print("Score:", round(h["score"], 3))
+            print("Distance (lower=better):", round(h["score"], 3))
             print("Sheet:", h.get("sheet"))
             print("Question:", h.get("question"))
-            print("Chunk:", h.get("chunk_text", "")[:400], "...")
+            print("Content:", h.get("content", "")[:400], "...")

@@ -1,6 +1,6 @@
 [
   {
-    "content": "Product Area: LCA\n\nQuestion: What are the main Features  of the Little Champs Account.\n\nAnswer:\nMinimum initial deposit of Rs.100/- Little Champs Savings A/C Free first chequebook* Profit Payment Profit Rate Free debit card* (annual/replacement fees apply). This debit card has the following limits Semi-Annually 0.19 Daily funds Transfer Limit:     Rs.100,000/- Daily ATM Withdrawal Limit:  Rs.25,000/- Daily POS Limit:                     Rs.50,000/- * For Current Account only",
+    "content": "Product Area: LCA\n\nQuestion: What are the main Features  of the Little Champs Account.\n\nAnswer:\nMinimum initial deposit of Rs.100/- Little Champs Savings A/C Free first chequebook* Profit Payment Profit Rate Free debit card* (annual/replacement fees apply). This debit card has the following limits Daily funds Transfer Limit: Rs.100,000/- Daily ATM Withdrawal Limit: Rs.25,000/- Daily POS Limit: Rs.50,000/- * For Current Account only\n\nProfit Payment / Profit Rate:\nSemi-Annually: 0.19",
     "metadata": {
       "sheet": "LCA",
       "question": "What are the main Features  of the Little Champs Account."
@@ -77,7 +77,7 @@
     }
   },
   {
-    "content": "Product Area: NWA\n\nQuestion: What are the salient features of NUST Waqaar Account ? Savings Term Deposit Profit Payment\n\nAnswer:\nTenure – 1 year Savings: 0.19 Minimum Age to qualify 55 years 55 years Profit Calculation Monthly Average Balance – Term Deposit: Profit Payment frequency Monthly Monthly Tenure Payout Profit Rate Debit Card & Cheque Book issuance as per prevailing SOC (for linked account) Debit Card & Cheque Book Debit Card & Cheque Book issuance as per prevailing SOC Debit Card & Cheque Book issuance as per prevailing SOC (for linked account) One Year Monthly 0.1675 Currency PKR PKR\nA photocopy of any one of the following valid identity documents: National Identity Card (CNIC) issued by NADRA National Identity Card for Overseas Pakistani (NICOP) issued by NADRA Pakistan Origin Card (POC) issued by NADRA Passport, having valid visa on it or any other proof of legal stay along with passport (foreign national individuals only)",
+    "content": "Product Area: NWA\n\nQuestion: What are the salient features of NUST Waqaar Account ? Savings Term Deposit Profit Payment\n\nAnswer:\nTenure – 1 year Savings: 0.19 Minimum Age to qualify 55 years 55 years Profit Calculation Monthly Average Balance – Term Deposit: Profit Payment frequency Monthly Monthly Tenure Payout Profit Rate Debit Card & Cheque Book issuance as per prevailing SOC (for linked account) Debit Card & Cheque Book Debit Card & Cheque Book issuance as per prevailing SOC Debit Card & Cheque Book issuance as per prevailing SOC (for linked account) One Year Currency PKR PKR A photocopy of any one of the following valid identity documents: National Identity Card (CNIC) issued by NADRA National Identity Card for Overseas Pakistani (NICOP) issued by NADRA Pakistan Origin Card (POC) issued by NADRA Passport, having valid visa on it or any other proof of legal stay along with passport (foreign national individuals only)\n\nProfit Payment / Profit Rate:\nMonthly: 0.1675",
     "metadata": {
       "sheet": "NWA",
       "question": "What are the salient features of NUST Waqaar Account ? Savings Term Deposit Profit Payment"
@@ -140,7 +140,7 @@
     }
   },
   {
-    "content": "Product Area: PWRA\n\nQuestion: What is the profit rate offered on this account and when is credited? Profit Rate\n\nAnswer:\nProfit payment on monthly basis based on monthly average balance Monthly 0.19\nAll bank charges are applicable as per prevailing Schedule of Charges Zakat and taxes are applicable as per law",
+    "content": "Product Area: PWRA\n\nQuestion: What is the profit rate offered on this account and when is credited? Profit Rate\n\nAnswer:\nProfit payment on monthly basis based on monthly average balance All bank charges are applicable as per prevailing Schedule of Charges Zakat and taxes are applicable as per law\n\nProfit Payment / Profit Rate:\nMonthly: 0.19",
     "metadata": {
       "sheet": "PWRA",
       "question": "What is the profit rate offered on this account and when is credited? Profit Rate"
@@ -182,7 +182,7 @@
     }
   },
   {
-    "content": "Product Area: RDA\n\nQuestion: Who can open a Roshan Digital Account?\n\nAnswer:\nNRPs OPF Members Foreign Nationals having Pakistan Origin Card (POC) Pakistani Nationals having declared Assets abroad Govt. Employees & Officials posted abroad Profit Payment Profit Rate\nAll bank charges are applicable as per prevailing Schedule of Charges Monthly 0.19 Zakat and WHT taxes on profit are not applicable on RDA account",
+    "content": "Product Area: RDA\n\nQuestion: Who can open a Roshan Digital Account?\n\nAnswer:\nNRPs OPF Members Foreign Nationals having Pakistan Origin Card (POC) Pakistani Nationals having declared Assets abroad Govt. Employees & Officials posted abroad Profit Payment Profit Rate All bank charges are applicable as per prevailing Schedule of Charges Zakat and WHT taxes on profit are not applicable on RDA account\n\nProfit Payment / Profit Rate:\nMonthly: 0.19",
     "metadata": {
       "sheet": "RDA",
       "question": "Who can open a Roshan Digital Account?"
@@ -273,7 +273,7 @@
     }
   },
   {
-    "content": "Product Area: NSDA\n\nQuestion: What is the minimum balance requirement of NUST Special Deposit Account? NUST Special Deposit Account (ASDA)\n\nAnswer:\nNo Minimum Monthly Average Balance Requirement Profit Payment Profit Rate No Minimum Opening Balance Requirement Monthly/Semi-Annually 0.19",
+    "content": "Product Area: NSDA\n\nQuestion: What is the minimum balance requirement of NUST Special Deposit Account? NUST Special Deposit Account (ASDA)\n\nAnswer:\nNo Minimum Monthly Average Balance Requirement Profit Payment Profit Rate No Minimum Opening Balance Requirement Monthly/\n\nProfit Payment / Profit Rate:\nSemi-Annually: 0.19",
     "metadata": {
       "sheet": "NSDA",
       "question": "What is the minimum balance requirement of NUST Special Deposit Account? NUST Special Deposit Account (ASDA)"
@@ -378,7 +378,7 @@
     }
   },
   {
-    "content": "Product Area: NMA\n\nQuestion: What are main Features of NUST Maximiser Term Deposit Profit Rate:\n\nAnswer:\n- Tenure: 1, 2, 3 & 5 Years NUST Maximiser - Term Deposit - Minimum investment: Rs. 100,000 Tenure Payout Profit Rate - Roll-over option available One Year Monthly 0.1675 - Attractive profit payments on monthly basis. Two Years 0.1425 Three Years 0.13752 Five Years 0.13",
+    "content": "Product Area: NMA\n\nQuestion: What are main Features of NUST Maximiser Term Deposit Profit Rate:\n\nAnswer:\n- Tenure: 1, 2, 3 & 5 Years NUST Maximiser - Term Deposit - Minimum investment: Rs. 100,000 Tenure Payout Profit Rate - Roll-over option available One Year - Attractive profit payments on monthly basis. Two Years 0.1425 Three Years 0.13752 Five Years 0.13\n\nProfit Payment / Profit Rate:\nMonthly: 0.1675",
     "metadata": {
       "sheet": "NMA",
       "question": "What are main Features of NUST Maximiser Term Deposit Profit Rate:"

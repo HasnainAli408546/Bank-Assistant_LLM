@@ -1,3 +1,5 @@
+# prepare_documents.py
+
 import json
 import re
 
@@ -30,17 +32,18 @@ def is_question(text: str) -> bool:
 
 def normalize_profit_table(answer: str) -> str:
     """
-    Detect fragments like 'Monthly 0.19', 'Quarterly 0.1905', 'Semi-Annually 0.191', 'Annually 0.1915'
-    scattered inside the answer, remove them from their original positions, and append a
-    clean table block at the end.
+    Detects profit payment / profit rate fragments in two common patterns:
+    1) Table-ish: 'Monthly 0.19', 'Quarterly 0.1905', 'Semi-Annually 0.191', 'Annually 0.1915'
+    2) Single: 'Profit Payment Profit Rate ... Semi-Annually 0.19'
 
-    Returns a new answer string.
+    Removes these numeric fragments from the main answer text and appends
+    a clean 'Profit Payment / Profit Rate' block at the end.
     """
     # Normalize spaces
     text = " ".join(answer.split())
 
-    # Regex: (Monthly|Quarterly|Semi-Annually|Annually) + number (e.g., 0.19, 19.00, 19.05%)
-    pattern = re.compile(
+    # ----- Pattern 1: Table-ish rows -----
+    pattern_table = re.compile(
         r"(Monthly|Quarterly|Semi-Annually|Annually)\s+([0-9]+(?:\.[0-9]+)?%?)",
         re.IGNORECASE,
     )
@@ -48,20 +51,34 @@ def normalize_profit_table(answer: str) -> str:
     rows = []
     used_spans = []
 
-    for m in pattern.finditer(text):
+    for m in pattern_table.finditer(text):
         period = m.group(1)
         rate = m.group(2)
         rows.append((period, rate))
         used_spans.append((m.start(), m.end()))
 
-    # If fewer than 2 rows, do nothing (likely not a real table)
-    if len(rows) < 2:
+    # ----- Pattern 2: single Profit Payment / Rate -----
+    # e.g. "... Profit Payment Profit Rate ... Semi-Annually 0.19 ..."
+    if not rows:
+        pattern_single = re.compile(
+            r"Profit\s+Payment\s+Profit\s+Rate.*?(Monthly|Quarterly|Semi-Annually|Annually)\s+([0-9]+(?:\.[0-9]+)?%?)",
+            re.IGNORECASE,
+        )
+        m = pattern_single.search(text)
+        if m:
+            period = m.group(1)
+            rate = m.group(2)
+            rows.append((period, rate))
+            used_spans.append((m.start(1), m.end(2)))  # remove only freq+rate
+
+    # If still nothing found, return original answer
+    if not rows:
         return answer
 
     # Remove matched fragments from text
     cleaned_parts = []
     last_end = 0
-    for start, end in used_spans:
+    for start, end in sorted(used_spans):
         cleaned_parts.append(text[last_end:start])
         last_end = end
     cleaned_parts.append(text[last_end:])
