@@ -32,6 +32,9 @@ def generate(req: GenerateRequest):
     # Safety clamp
     max_new = min(req.max_tokens, 64)
 
+    print("\n[LLM SERVER] Received prompt (first 500 chars):")
+    print(prompt[:500], "\n")
+
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
@@ -45,4 +48,8 @@ def generate(req: GenerateRequest):
 
     full_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
     generated = full_text[len(prompt):].strip()
+
+    print("[LLM SERVER] Generated text:")
+    print(generated, "\n")
+    
     return GenerateResponse(text=generated)

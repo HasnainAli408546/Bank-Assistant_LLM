@@ -137,6 +137,14 @@ def chat(req: ChatRequest):
     # Retrieve top-k docs (can be overridden by client)
     hits = search(req.query, k=req.top_k)
 
+    print("\n[DEBUG] Retrieved hits for:", req.query)
+    for i, h in enumerate(hits, 1):
+        print(f"--- Hit {i} ---")
+        print("Score:", h.get("score"))
+        print("Sheet:", h.get("sheet"))
+        print("Question:", h.get("question"))
+        print("Content snippet:", h.get("content", "")[:400], "...\n")
+
     # If nothing retrieved, fail gracefully
     if not hits:
         return ChatResponse(
@@ -146,7 +154,9 @@ def chat(req: ChatRequest):
 
     # Build extraction-focused prompt
     prompt = build_prompt(req.query, hits)
+    print("\n[DEBUG] Prompt sent to LLM:\n", prompt[:2000], "\n")  # trim if long
     answer = call_llm(prompt)
+    print("\n[DEBUG] Raw LLM answer:\n", answer, "\n")
 
     return ChatResponse(
         answer=answer,

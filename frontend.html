@@ -338,7 +338,7 @@
         const resp = await fetch('http://localhost:8000/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query: text, top_k: 5 })
+          body: JSON.stringify({ query: text, top_k: 3 })
         });
 
         if (!resp.ok) {

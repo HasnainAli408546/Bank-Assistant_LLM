@@ -1911,107 +1911,107 @@
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Is there a limit on the amount I can transfer through the mobile banking app?\n\nAnswer:\nYes, 1 million is the current daily limit. Transfer limits vary based on your account type. Check the 'Limits' section in the app for specifics on daily transfer limits.",
+    "content": "Product Area: Mobile App - Funds Transfer / RAAST\n\nQuestion: Is there a limit on the amount I can transfer through the mobile banking app?\n\nAnswer:\nYes, 1 million is the current daily limit. Transfer limits vary based on your account type. Check the “Limits” section in the app for specifics on daily transfer limits.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - Funds Transfer / RAAST",
       "question": "Is there a limit on the amount I can transfer through the mobile banking app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How can I change limit of funds transfer?\n\nAnswer:\nTo change your funds transfer limit, go to the 'My Profile' section and select 'Manage Limit' in the app, then choose 'Change FT/IBFT Limits'.",
+    "content": "Product Area: Mobile App - Funds Transfer / RAAST\n\nQuestion: How can I change limit of funds transfer?\n\nAnswer:\nTo change your funds, transfer limit, go to the “My profile” section and select “Manage Limit” in the app, then select “Change FT/IBFT” limits.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - Funds Transfer / RAAST",
       "question": "How can I change limit of funds transfer?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How can I add or update beneficiaries or recipients in the mobile banking app for funds transfer?\n\nAnswer:\nNavigate to the 'Transfer Funds' section and select 'New Beneficiaries'. You can add a new beneficiary by entering their details or update an existing beneficiary.",
+    "content": "Product Area: Mobile App - Funds Transfer / RAAST\n\nQuestion: How can I add or update beneficiaries/ recipients of mobile banking app for funds transfer?\n\nAnswer:\nIn the app, navigate to the “Transfer Funds” section and select “New Beneficiaries.” Here, you can choose to add a new beneficiary by entering their details or update existing beneficiary information.",
     "metadata": {
-      "sheet": "Unknown",
-      "question": "How can I add or update beneficiaries or recipients in the mobile banking app for funds transfer?"
+      "sheet": "Mobile App - Funds Transfer / RAAST",
+      "question": "How can I add or update beneficiaries/ recipients of mobile banking app for funds transfer?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How do I perform international transactions through the mobile app?\n\nAnswer:\nYou can enable international transactions by going to Card Management, selecting Manage Debit Card, and choosing the 'International Transaction Activation' option.",
+    "content": "Product Area: Mobile App - Funds Transfer / RAAST\n\nQuestion: How do I perform international transactions through mobile app?\n\nAnswer:\nOne can enable international transactions by tapping on card management, select manage debit card and choose “international tranx activation” option.",
     "metadata": {
-      "sheet": "Unknown",
-      "question": "How do I perform international transactions through the mobile app?"
+      "sheet": "Mobile App - Funds Transfer / RAAST",
+      "question": "How do I perform international transactions through mobile app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Does the app support contactless payments or digital wallets?\n\nAnswer:\nFor contactless payments, NUST Bank provides a separate app called NUST Digital Wallets which customers can download to perform payments.",
+    "content": "Product Area: Mobile App - Funds Transfer / RAAST\n\nQuestion: Does the app support contactless payments or digital wallets?\n\nAnswer:\nFor contactless payments NUST Bank has a separate mobile app named as NUST Digital Wallets. Customers can download and perform payments.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - Funds Transfer / RAAST",
       "question": "Does the app support contactless payments or digital wallets?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Can I use the mobile app while I am overseas?\n\nAnswer:\nYes, the NUST mobile app can be accessed globally. Ensure you have internet connectivity and your registered mobile number is active for OTP verification if required.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: Can I use the mobile app while I am overseas?\n\nAnswer:\nYes, the NUST mobile app can be accessed globally. Ensure you have internet connectivity and your registered mobile number is active for OTPs if required.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "Can I use the mobile app while I am overseas?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: What should I do if I forget my login password?\n\nAnswer:\nTap on 'Forgot Password' on the login screen and follow the instructions to reset your password using your registered mobile number and verification details.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: What should I do if I forget my login password?\n\nAnswer:\nTap on 'Forgot Password' on the login screen. Follow the steps to reset your password using your registered mobile number and verification details.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "What should I do if I forget my login password?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Can I reset my MPIN through the app?\n\nAnswer:\nYes. After logging into the app, go to 'Profile' and select 'Change MPIN', then follow the prompts to reset it securely.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: Can I reset my MPIN through the app?\n\nAnswer:\nYes, after logging into the app, go to 'Profile' → 'Change MPIN' and follow the prompts to reset your MPIN securely.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "Can I reset my MPIN through the app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: What services are available under the Bill Payment option?\n\nAnswer:\nYou can pay utility bills, internet bills, mobile bills, and government fees through the 'Bill Payment' option in the app.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: What services are available under Bill Payment option?\n\nAnswer:\nYou can pay utility bills, internet and mobile bills, and government fees using the 'Bill Payment' option in the app.",
     "metadata": {
-      "sheet": "Unknown",
-      "question": "What services are available under the Bill Payment option?"
+      "sheet": "Mobile App - App Features / Functionalities",
+      "question": "What services are available under Bill Payment option?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How can I recharge mobile balance or buy top-up?\n\nAnswer:\nUse the 'Mobile Top-Up' feature. Select your network, enter the mobile number and amount, and confirm using your MPIN.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: How can I recharge mobile balance or buy top-up?\n\nAnswer:\nUse the 'Mobile Top-Up' feature. Select your network, enter the mobile number and amount, and confirm with your MPIN.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "How can I recharge mobile balance or buy top-up?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Is biometric login supported in the app?\n\nAnswer:\nYes. Biometric login is supported and can be enabled in the 'Profile' section by turning on 'Fingerprint Login' for faster and secure access.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: Is biometric login supported in the app?\n\nAnswer:\nYes, biometric login is supported. You can enable it under the 'Profile' section by turning on 'Fingerprint Login' for faster and secure access.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "Is biometric login supported in the app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Can I view my debit card details using the mobile app?\n\nAnswer:\nYou can view basic card details such as card status and activation options. For full card details, please contact the bank for security reasons.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: Can I view my debit card details using the mobile app?\n\nAnswer:\nYou can view basic card details like the card status and activation options. For full card info, please contact the bank for security reasons.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "Can I view my debit card details using the mobile app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How can I report an issue or give feedback within the app?\n\nAnswer:\nGo to the 'Contact Us' or 'Feedback' section in the app and submit your query or feedback. You can also email [support@NUSTbank.com.pk](mailto:support@NUSTbank.com.pk).",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: How can I report an issue or give feedback within the app?\n\nAnswer:\nGo to the 'Contact Us' or 'Feedback' section in the app and submit your query or feedback. You can also email support@NUSTbank.com.pk.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "How can I report an issue or give feedback within the app?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: How can I deactivate or delete my mobile banking account?\n\nAnswer:\nFor security reasons, requests to deactivate or delete your account must be made by calling the helpline at +92 (51) 111 000 494.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: How can I deactivate or delete my mobile banking account?\n\nAnswer:\nFor security reasons, deactivation or deletion requests must be submitted by calling the helpline at +92 (51) 111 000 494.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "How can I deactivate or delete my mobile banking account?"
     }
   },
   {
-    "content": "Product Area: Unknown\n\nQuestion: Is the mobile app available in multiple languages?\n\nAnswer:\nCurrently, the NUST mobile app supports English only. Multilingual support may be added in future updates.",
+    "content": "Product Area: Mobile App - App Features / Functionalities\n\nQuestion: Is the mobile app available in multiple languages?\n\nAnswer:\nCurrently, the NUST mobile app supports English only. Multilingual support is being considered for future updates.",
     "metadata": {
-      "sheet": "Unknown",
+      "sheet": "Mobile App - App Features / Functionalities",
       "question": "Is the mobile app available in multiple languages?"
     }
   }
