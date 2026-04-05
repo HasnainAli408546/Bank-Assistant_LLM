@@ -1,11 +1,10 @@
-# prepare_documents.py
-
 import json
 import re
-from typing import List, Dict, Any  # added to match test file typing
+from typing import List, Dict, Any  # added
 
-INPUT_FILE = "bank_knowledge.json"
-OUTPUT_FILE = "bank_documents.json"
+# Test input/output files
+INPUT_FILE = "bank_knowledge_test.json"
+OUTPUT_FILE = "bank_documents_test.json"
 
 
 def is_question(text: str) -> bool:
@@ -70,8 +69,7 @@ def normalize_profit_table(answer: str) -> str:
             period = m.group(1)
             rate = m.group(2)
             rows.append((period, rate))
-            # remove only freq+rate
-            used_spans.append((m.start(1), m.end(2)))
+            used_spans.append((m.start(1), m.end(2)))  # remove only freq+rate
 
     # If still nothing found, return original answer
     if not rows:
@@ -99,11 +97,10 @@ def normalize_profit_table(answer: str) -> str:
         return table_block
 
 
-def create_documents() -> List[Dict[str, Any]]:
+def create_documents_test() -> List[Dict[str, Any]]:
     """
-    Read bank_knowledge.json and produce docs in RAG format.
-    Mirrors test_create_documents behavior, including special handling
-    for the Rate Sheet.
+    Read bank_knowledge_test.json and produce docs in RAG format.
+    Returns the list of docs, and also writes bank_documents_test.json to disk.
     """
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -128,7 +125,7 @@ def create_documents() -> List[Dict[str, Any]]:
             )
             continue
 
-        # Generic behavior for all other sheets (same as test)
+        # Generic behavior for all other sheets (same as before)
         if is_question(question_text):
             # save previous document
             if current_doc:
@@ -161,9 +158,7 @@ def create_documents() -> List[Dict[str, Any]]:
         text = f"""
 Product Area: {doc['sheet']}
 
-
 Question: {doc['question']}
-
 
 Answer:
 {normalized_answer}
@@ -179,14 +174,16 @@ Answer:
             }
         )
 
-    print("Original rows:", len(data))
-    print("Final documents:", len(final_docs))
+    print("Original rows (test):", len(data))
+    print("Final documents (test):", len(final_docs))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_docs, f, indent=2, ensure_ascii=False)
+
+    print(f"[test_prepare_documents] Wrote {len(final_docs)} docs to {OUTPUT_FILE}.")
 
     return final_docs
 
 
 if __name__ == "__main__":
-    create_documents()
+    create_documents_test()

@@ -1,0 +1,41 @@
+You can test this sheet with a mix of narrow and broad questions to see if the model stays grounded, copies numbers correctly, and avoids hallucinations.
+
+### Basic identification
+
+1. “Do you have any account specifically for kids or minors?”  
+2. “What is the **Little Champs Account** and who is it designed for?”  
+3. “Can a Little Champs Account be opened jointly with a parent or guardian?”  
+
+### Features and limits
+
+4. “What is the minimum initial deposit for a Little Champs Account?”  
+5. “What are the debit card transaction limits for Little Champs (funds transfer, ATM, POS)?”  
+6. “What is the profit payment frequency and profit rate for the Little Champs Savings Account?”  
+7. “List the main features of the Little Champs Account in 3 short bullet points.”  
+
+### Account type and operation
+
+8. “Is Little Champs offered as a current account, a savings account, or both?”  
+9. “Can the minor operate the Little Champs Account alone, or do they need a guardian?”  
+10. “Explain how a minor can use the Little Champs Account day‑to‑day.”  
+
+### Value‑added features
+
+11. “What value‑added features does the Little Champs Account provide besides basic banking?”  
+12. “Describe the free education insurance plan offered with the Little Champs Account.”  
+
+### KYC / documents
+
+13. “What documents are required to open a Little Champs Account for my child?”  
+14. “Which identity documents for the guardian are acceptable when opening a Little Champs Account?”  
+15. “Do I need to provide the minor’s Form‑B or birth certificate to open a Little Champs Account?”  
+
+### Stress‑test / failure modes
+
+16. “Can I get a Little Champs Account for my 25‑year‑old son?”  (Should say no; designed for minors under 18.)  
+17. “What is the minimum balance requirement for Little Champs?”  (Check it does not invent if not stated explicitly.)  
+18. “What is the maximum age limit for opening a Little Champs Account?”  (Not in text; should answer “I do not know based on the available documents.”)  
+19. “Can I open a Little Champs Account in US dollars?”  (Not in text; should not hallucinate “yes”.)  
+20. “Does the Little Champs Account include life insurance for the child?”  (Only guardian‑death education plan is mentioned; check for over‑claiming.)
+
+If you run these through `/chat`, we can read a few responses and pinpoint whether issues come from retrieval, numbers copying, or hallucinations.

@@ -2,11 +2,7 @@ import pandas as pd
 import json
 import re
 
-# Excel file
-excel_file = "NUST Bank-Product-Knowledge.xlsx"
-
-# Output JSON (final index file, not test)
-output_file = "bank_knowledge.json"
+output_file = "bank_knowledge_test.json"
 
 
 def is_question(text: str) -> bool:
@@ -84,13 +80,11 @@ def extract_products_from_main_sheet(sheet_name: str, df: pd.DataFrame):
         if "sme products" in lower or "third party products" in lower:
             continue
 
-        # Strip leading numbering (e.g. "1 NUST Asaan Account (NAA)")
         tokens = text.split()
         while tokens and tokens[0].isdigit():
             tokens.pop(0)
         cleaned_text = " ".join(tokens)
 
-        # Sometimes multiple products in one row separated by numbers
         parts = re.split(r"\s\d+\s", cleaned_text)
         for part in parts:
             part = part.strip()
@@ -109,6 +103,7 @@ def extract_products_from_main_sheet(sheet_name: str, df: pd.DataFrame):
 
     # Single catalog QA
     question = "What are the main accounts and products offered by NUST Bank?"
+    # You can tweak wording; include codes inline if present in text (e.g. "(NAA)")
     answer = "NUST Bank offers the following products: " + "; ".join(products) + "."
 
     return [
@@ -124,7 +119,7 @@ def extract_products_from_main_sheet(sheet_name: str, df: pd.DataFrame):
     ]
 
 
-# ----------------- Rate Sheet helpers ----------------- #
+# ----------------- NEW: Rate Sheet helpers ----------------- #
 
 def extract_savings_accounts_from_rate_sheet(sheet_name: str, df: pd.DataFrame):
     """
@@ -227,6 +222,7 @@ def extract_savings_accounts_from_rate_sheet(sheet_name: str, df: pd.DataFrame):
                         q2 += f" with {payment} profit payment?"
                     else:
                         q2 += "?"
+                    # You can reuse the same answer text
                     doc2 = {
                         "sheet": sheet_name,
                         "question": q2,
@@ -362,11 +358,11 @@ def extract_term_deposits_from_rate_sheet(sheet_name: str, df: pd.DataFrame):
 
 # ----------------- Main Excel extraction ----------------- #
 
-def extract_knowledge_from_excel(path: str = excel_file):
+def extract_knowledge_from_excel(path: str):
     """
-    Final extractor:
+    Test extractor:
     - Reads all sheets from the given Excel file path
-    - Writes QA pairs to bank_knowledge.json
+    - Writes QA pairs to bank_knowledge_test.json
     - Processes 'Rate Sheet July 1 2024' and 'Main' first, then others.
     """
     sheets = pd.read_excel(path, sheet_name=None, header=None)
@@ -375,7 +371,6 @@ def extract_knowledge_from_excel(path: str = excel_file):
 
     knowledge = []
 
-    # Process these sheets first if present
     preferred_first = [
         "Rate Sheet July 1 2024",
         "Rate Sheet July 1, 2024",
@@ -459,10 +454,10 @@ def extract_knowledge_from_excel(path: str = excel_file):
         json.dump(knowledge, f, indent=2, ensure_ascii=False)
 
     print(
-        f"[extract_knowledge] Extraction complete. "
+        f"[test_extract_knowledge] Extraction complete. "
         f"{len(knowledge)} QA pairs saved to {output_file}."
     )
 
 
 if __name__ == "__main__":
-    extract_knowledge_from_excel()
+    extract_knowledge_from_excel("NUST Bank-Product-Knowledge.xlsx")
