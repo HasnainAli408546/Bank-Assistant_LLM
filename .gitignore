@@ -2,3 +2,6 @@ venv/
 __pycache__/
 *.pyc
 .env
+build_index_test.py
+test_extract_knowledge.py
+test_prepare_documents.py
